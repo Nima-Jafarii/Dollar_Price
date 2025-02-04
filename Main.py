@@ -63,7 +63,7 @@ class Ui_MainWindow(object):
 "border: none;")
         self.RefreshButton.setText("")
         icon = QtGui.QIcon()
-        icon.addPixmap(QtGui.QPixmap("C:/Users/nima9/Downloads/refresh-page-option.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        icon.addPixmap(QtGui.QPixmap("D:\project\Git\Dollar_Price\RefreshIcon.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         self.RefreshButton.setIcon(icon)
         self.RefreshButton.setIconSize(QtCore.QSize(25, 25))
         self.RefreshButton.setDefault(False)
